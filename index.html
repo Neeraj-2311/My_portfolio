@@ -6,61 +6,223 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neeraj's portfolio</title>
+
+  <!--CSS file-->
   <link rel="stylesheet" href="styles.css">
+
+  <!--favicon icon-->
   <link rel="icon" href="images/favicon.ico">
+
+  <!--fontawesome icon webkit-script-->
+  <script src="https://kit.fontawesome.com/f44356ef2f.js" crossorigin="anonymous"></script>
+
+  <!--google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="icon-cpp" src="images/image-cpp.png" alt="cpp-icon">
-    <img class="icon-python" src="images/image-python.png" alt="python-icon">
-    <h1>I'm Neeraj</h1>
-    <p class="subheading">a <span class="pro">pro</span>grammer.</p>
-    <img class="icon-mern" src="images/image-mern.png" alt="mern-icon">
-    <img class="icon-technology" src="images/image-technology.png" alt="technology-icon">
-    <img class="icon-computer" src="images/image-computer.png" alt="computer-image">
+  <div class="header">
+    <img class="waving-hand" src="images/goodbye.png" alt="hi-icon">
+    <h2>Hi! Welcome to my portfolio website.</h2>
   </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/image-removebg-preview.png" alt="profile">
-      <h2>Neeraj</h2>
-      <p>I am a fast learner and Web development enthusiast, looking for an opportunity to be a part of a good
-        company like yours and give my best to this company. I also aim to work extra hard to achieve my target
-        and give the best performance in the organization. I am eager to utilize my innovative abilities and
-        skills
-        to accomplish the projects.</p>
-    </div>
+  <div class="top-container">
+    <section id="profile">
+      <table>
+        <tbody>
+          <tr>
+            <td rowspan="4" class="profile-td"><img class="profile-img" src="images/image-removebg-preview.png"
+                alt="profile"></td>
+            <td>
+              <h2>Neeraj</h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>👨‍💻A competitive programmer</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>🔥SDE & Data Science enthusiast</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>🔥MERN Stack developer</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <p class="objective"><i class="fa-solid fa-quote-left"></i> I am a fast learner and Web development
+                enthusiast, looking for an opportunity to be a part of a good
+                company and give my best to that company. I also aim to work extra hard to achieve my target
+                and give the best performance in the organization. I am eager to utilize my innovative abilities and
+                skills
+                to accomplish the projects. <i class="fa-solid fa-quote-right"></i></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <hr>
-    <div class="skills">
-      <h2>My skills</h2>
-      <div class="skill-row">
-        <img class="skill_icon_1" src="images/skill1.png" alt="skill_icon_1">
-        <h3>Teamwork</h3>
-        <p>A team environment gives individual employees the chance to share their expertise with others.</p>
-        </div>
-      <div class="skill-row">
-        <img class="skill_icon_2" src="images/skill2.png" alt="skill_icon_2">
-        <h3>Project management</h3>
-        <p>In brief, project management objectives are the successful development of the project's procedures of
-          initiation, planning, execution, regulation and closure.</p>
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td class="location">Delhi, India</td>
+            <td class="school">Netaji Subhash University of Technology</td>
+            <td class="date">Aug 2025 - Jan 2022</td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <p class="study">B.tech in ECE with specialization in AI & ML</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="location">Delhi, India</td>
+            <td class="school">Sarvodaya Bal Vidyalaya</td>
+            <td class="date">Mar 2021 - April 2019</td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <p class="study">Senior Secondary education</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="location">Delhi, India</td>
+            <td class="school">Adarsh Secondary school</td>
+            <td class="date">Mar 2019 - April 2018</td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <p class="study">Secondary eduction certification</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <table>
+          <tbody>
+            <tr>
+              <td rowspan="2" class="img-td"><img class="project-img" src="images/analytics.png" alt="project-1-img"></td>
+              <td>
+                <h3 class="project-heading">Banking System</h3><a
+                  href="https://github.com/Neeraj-2311/Banking-system-project" target="_main">⇗project</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>A program where users can perform real-time operations like account creation, credit, transfer,
+                    etc.</li>
+                  <li>Used File Handling to save customers' data in a file and import that data when the program runs.
+                  </li>
+                  <li>Maximum time complexity of this program is O(n^2).</li>
+                  <li>OOPs is used to maintain code readability and data abstraction.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </div>
+      <div class="project">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <h3 class="project-heading">Tic-Tac-Toe</h3><a href="https://github.com/Neeraj-2311/Tic-Tac-Toe"
+                  target="_main">⇗project</a>
+              </td>
+              <td rowspan="2" class="img-td"><img class="project-img" src="images/gamification.png" alt="project-2-img">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li> Created a tic-tac-toe game program where two players can play, and the program will make the
+                    decisions.</li>
+                  <li> Fundamentals of C++ were used in this program.</li>
+                  <li> Used a String data structure to make the access and operations on it more accessible.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="project">
+        <table>
+          <tbody>
+            <tr>
+              <td rowspan="2" class="img-td"><img class="project-img" src="images/tinder.png" alt="project-3-img"></td>
+              <td>
+                <h3 class="project-heading">Tindog</h3><a href="https://neeraj-2311.github.io/tindog/"
+                  target="_main">⇗project</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Created a tindog website frontend.</li>
+                  <li>Used Bootstrap v5.3.0 with external CSS.</li>
+                  <li>Tried complex CSS layouts for better practice.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
     <hr>
-    <div class="contact-me">
+    <section id="skills">
+      <h2>Skills</h2>
+      <h2 class="skills-heading">Tech skills</h2>
+      <ul>
+        <li><i class="fa-solid fa-laptop-code"></i><span>C/C++</span></li>
+        <li><i class="fa-brands fa-python"></i><span>Python</span></li>
+        <li><i class="fa-brands fa-html5"></i><span>HTML</span></li>
+        <li><i class="fa-brands fa-css3-alt"></i><span>CSS</span></li>
+        <li><i class="fa-brands fa-stack-overflow"></i><span>Data structures</span></li>
+        <li><i class="fa-solid fa-diagram-project"></i><span>Algorithms</span></li>
+        <li><i class="fa-solid fa-object-group"></i><span>OOPs</span></li>
+      </ul>
+      <h2 class="skills-heading">Soft skills</h2>
+      <ul>
+        <li><i class="fa-solid fa-people-group"></i><span>Teamwork</span></li>
+        <li><i class="fa-solid fa-lightbulb"></i><span>Problem solving</span></li>
+        <li><i class="fa-solid fa-head-side-virus"></i><span>Adaptability</span></li>
+        <li><i class="fa-solid fa-comments"></i><span>Communication</span></li>
+        <li><i class="fa-solid fa-business-time"></i><span>Time management</span></li>
+      </ul>
+    </section>
+    <hr>
+    <section id="contact-me">
       <h2>Get In Touch</h2>
-      <h3>If you love to code without getting tired.</h3>
-      <p class="contact-message">Love to code as much as i do? let's talk about how awesome they it is! We don't need any motivation to code!.</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-    </div>
+      <h3 class="contact-me-heading">If you love to code without getting tired.</h3>
+      <div class="contact-message">
+        <p>I would love to connect with you! Do you want to collaborate with me on any project?</p>
+        <p>let's collab and build something interesting and amazing!.</p>
+      </div>
+      <a class="btn" href="mailto:neersh2311@gmail.com">CONTACT ME</a>
+    </section>
   </div>
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/" target="_main">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/Neeraj-2311/" target="_main">Github</a>
-    <a class="footer-link" href="https://www.instagram.com/neeraj_sh2311/" target="_main">Instagram</a>
+    <a class="footer-link" href="https://www.linkedin.com/" target="_main"><i class="fa-brands fa-linkedin"></i>
+      LinkedIn</a>
+    <span>|</span>
+    <a class="footer-link" href="https://github.com/Neeraj-2311/" target="_main"><i class="fa-brands fa-github"></i>
+      Github</a>
+    <span>|</span>
+    <a class="footer-link" href="https://www.instagram.com/neeraj_sh2311/" target="_main"><i
+        class="fa-brands fa-square-instagram"></i> Instagram</a>
     <p class="copyright">© Neeraj.</p>
   </div>
 </body>
