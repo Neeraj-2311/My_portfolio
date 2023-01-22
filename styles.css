@@ -8,16 +8,11 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
-    color: cadetblue;
-}
-
 hr {
-    border-width: 3px;
-    border-style: dotted none none none;
+    border-style: dashed none none none;
     border-width: 5px;
-    width: 10%;
-    color: grey;
+    margin: 30px auto;
+    width: 80%;
 }
 
 h1 {
@@ -28,54 +23,202 @@ h1 {
     margin: auto;
 }
 
-            /******************** class selectors ********************/
-.subheading {
-    line-height: 3em;
-    font-size: 2.5vw;
-    font-family: cursive;
-    color: darkblue;
-    margin: auto;
-}
-
-.pro {
-    color: rgb(8, 35, 8);
-}
-
 .top-container {
-    position: relative;
-    padding: 8em 0 0 0;
-    background-color: #BFEAF5;
-    width: auto;
-    height: auto;
-}
-
-.middle-container {
-    width: 50%;
+    width: 40%;
     margin: 20px auto 0px auto;
 }
-.skills{
-    margin: 30px auto 50px ;
+
+@media (max-width: 1418px) {
+    .top-container {
+        width: 60%;
+    }
 }
 
-.skill-row {
-    margin: 100px auto;
+@media (max-width: 950px) {
+    .top-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .top-container {
+        width: 90%;
+    }
+}
+
+
+/* Header Section */
+
+.header {
+    align-items: center;
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.header h2 {
+    color: #403e3e;
+}
+
+.waving-hand {
+    width: 8%;
+}
+
+@media(min-width: 750px) {
+    .waving-hand {
+        width: 60px;
+    }
+}
+
+
+/* Profile Section */
+
+#profile h2 {
+    color: #1f2e2b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-img {
+    max-width: 100%;
+}
+
+.profile-td {
+    width: 20%;
+}
+
+.objective {
+    margin: 20px 0;
+
+}
+
+
+/* Education Section */
+
+td,
+td h2,
+td p {
+    margin: 0;
     text-align: left;
-    line-height: 1.2;
+    margin-left: 10px;
 }
 
-.bottom-container {
-    background-color: antiquewhite;
+table {
+    width: 100%;
 }
 
-.contact-message{
+.study {
+    margin: 0 0 15px 0;
+}
+
+.location {
+    background-color: lightgray;
+    width: 20%;
+    font-weight: bold;
+}
+
+.school {
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.date {
+    background-color: lightgray;
+    width: 30%;
+    text-align: end;
+    font-weight: bold;
+}
+
+/* Projects section */
+
+.img-td {
+    width: 25%;
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project {
+    margin: 40px auto;
+    text-align: left;
+}
+
+.project ul {
+    list-style-type: "☑ ";
+    margin: 0;
+    padding: 5px 0 5px 20px;
+}
+
+.project-heading {
+    color: #1f2e2b;
+    margin: 0;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.project a {
+    border: solid black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0 4px;
+    border-radius: 10px;
+}
+
+.project a:hover {
+    border: solid black;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    padding: 0 4px;
+    border-radius: 10px;
+}
+
+/* Skills Section */
+
+#skills {
+    margin: 30px auto 50px;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px 10px;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #d1d1f4;
+    color: #403e3e;
+}
+
+.skills-heading {
+    color: #1f2e2b;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+}
+
+#skills span {
+    margin-left: 5px;
+}
+
+/* Contact me */
+
+.contact-me-heading {
+    color: cadetblue;
+}
+
+.contact-message {
     width: 60%;
-    margin: 30px auto 50px ;
+    margin: 30px auto 30px;
 }
-.contact-me{
+
+#contact-me {
     margin: 40px auto;
 }
+
 .btn {
-    background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: -moz-linear-gradient(top, #3498db, #2980b9);
     background-image: -ms-linear-gradient(top, #3498db, #2980b9);
@@ -83,16 +226,15 @@ h1 {
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
     -webkit-border-radius: 15;
     -moz-border-radius: 15;
-    border-radius: 15px;
+    border-radius: 5px;
     font-family: Arial;
     color: #ffffff;
     font-size: 18px;
-    padding: 10px 20px 10px 20px;
+    padding: 7px 10px;
     text-decoration: none;
 }
-  
+
 .btn:hover {
-    background: #1f2e2b;
     background-image: -webkit-linear-gradient(top, #1f2e2b, #3498db);
     background-image: -moz-linear-gradient(top, #1f2e2b, #3498db);
     background-image: -ms-linear-gradient(top, #1f2e2b, #3498db);
@@ -100,70 +242,37 @@ h1 {
     background-image: linear-gradient(to bottom, #1f2e2b, #3498db);
     text-decoration: none;
 }
-.bottom-container{
+
+
+/* Footer Section */
+
+.bottom-container {
     background-color: #66bfbf;
     padding: 20px 0 10px 0;
 }
-.bottom-container a{
+
+.bottom-container a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
 }
-.bottom-container a:hover{
-    color: #eaf6f6;
-}
-.copyright{
+
+.copyright {
     color: #eaf6f6;
     font-size: 0.75rem;
     padding: 20px 0 0 0;
 }
 
-                /*****images ans icons*****/
-.icon-cpp {
-    position: absolute;
-    width: 10%;
-    top: 0;
-    left: 15%;
-    top: 12%;
+.footer-link {
+    border: solid 0;
+    padding: 4px 10px;
+    background-color: #1f2e2b;
+    color: white;
+    border-radius: 5px;
 }
 
-.icon-python {
-    position: absolute;
-    right: 12%;
-    width: 20%;
-    top: 12%;
-}
-
-.icon-mern {
-    position: absolute;
-    width: 10%;
-    left: 12%;
-    top: 50%;
-}
-
-.icon-technology {
-    position: absolute;
-    right: 12%;
-    top: 50%;
-    width: 15%;
-}
-
-.icon-computer {
-    width: 45em;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.profile img {
-    width: 25%;
-}
-
-.skill_icon_1 {
-    float: left;
-    margin-right: 3%;
-}
-
-.skill_icon_2 {
-    float: right;
-    margin-left: 3%;
+.footer-link:hover {
+    border: solid 1.5px black;
+    background-color: white;
+    color: black;
 }
