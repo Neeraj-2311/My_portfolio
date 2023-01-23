@@ -1,4 +1,12 @@
-# My_portfolio
-A simple portfolio website website.
-This is my first portfolio website of a beginner level.
-An attractive and professional level portfolio website will be updated here very soon....
+# My_portfolio Website
+
+👉A simple portfolio website built using Html and css.
+
+🍑This is my first portfolio website as a beginner.
+
+☘️Anyone can Collab for the improvements in this repository like:
+    📍 Feedback form
+    📍 Transitions
+    📍 Theme, etc.
+
+Thanks for reading this 🙌
