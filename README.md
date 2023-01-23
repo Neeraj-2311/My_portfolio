@@ -4,9 +4,9 @@
 
 🍑This is my first portfolio website as a beginner.
 
-☘️Anyone can Collab for the improvements in this repository like:
+☘️This repository is open for contribution for the improvements like:
     📍 Feedback form
     📍 Transitions
-    📍 Theme, etc.
+    📍 Theme, etc
 
 Thanks for reading this 🙌
